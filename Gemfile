@@ -11,6 +11,7 @@ gem 'sqlite3'
 gem 'carrierwave'
 gem "mini_magick"
 gem 'devise'
+gem 'gravtastic'
 gem 'net-ssh'
 gem 'puma', '~> 3.11'
 # Use SCSS for stylesheets
