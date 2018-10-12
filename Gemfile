@@ -9,6 +9,8 @@ gem 'rails', '~> 5.2.1'
 gem 'sqlite3'
 # Use Puma as the app server
 gem 'carrierwave'
+gem "mini_magick"
+gem 'devise'
 gem 'net-ssh'
 gem 'puma', '~> 3.11'
 # Use SCSS for stylesheets
