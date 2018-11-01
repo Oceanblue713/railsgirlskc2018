@@ -41,6 +41,7 @@ gem 'jbuilder', '~> 2.5'
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.1.0', require: false
 #gem 'pg', group: :production
+gem 'dotenv-rails'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
@@ -60,6 +61,7 @@ end
 group :production do
   gem 'pg', '0.21.0'
   gem 'rails_12factor'
+  gem 'postgresql'
 end
 
 group :test do
